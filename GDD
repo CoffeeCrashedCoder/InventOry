@@ -1,0 +1,19 @@
+This Game Design Document was made to limit the project down to it's core purpose.
+The goal is to stick within the bounds of the following instructions to avoid complications and have an eisier time focusing on what we are doing, rather than what we're not.
+
+Main goals:
+*Create movement
+*Create collition events
+*Remove an object & add it's id to the player
+
+Instructions:
+*Create a background scene.
+*Add a character.
+*Add some sort of mobility (make it move).
+*Add another object
+*Create a collision event (instructions wip).
+*Give the object an integer id.
+*Give the player a vector of integer id's.
+*Print data to console.
+
+Disclosure: This GDD is in a very early stage WIP.
