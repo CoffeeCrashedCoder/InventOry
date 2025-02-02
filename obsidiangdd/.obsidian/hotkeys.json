@@ -1,0 +1,10 @@
+{
+  "templater-obsidian:MyTemplates/openFileTemplate.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "0"
+    }
+  ]
+}
