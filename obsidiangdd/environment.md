@@ -1,0 +1,6 @@
+[[trees]]
+[[rocks]]
+[[grass]]
+[[bushes]]
+[[paths]]
+[[flowers_mushrooms]]
