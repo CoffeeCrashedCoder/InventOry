@@ -1,11 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://cwaqyad1dlu61"]
+[gd_scene load_steps=3 format=3 uid="uid://cwaqyad1dlu61"]
 
 [ext_resource type="Texture2D" uid="uid://ban5ty8uul487" path="res://Assets/Backgrounds/background.png" id="1_cc4kw"]
+[ext_resource type="Texture2D" uid="uid://semds38lwbrq" path="res://Assets/Environment/bush1.png" id="2_ye4fa"]
 
 [node name="MainScene" type="Node2D"]
+position = Vector2(3, 0)
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
 
 [node name="Background" type="Sprite2D" parent="."]
-scale = Vector2(2, 2)
 texture = ExtResource("1_cc4kw")
+
+[node name="Bush1" type="Sprite2D" parent="Background"]
+position = Vector2(15, -34)
+texture = ExtResource("2_ye4fa")
