@@ -1,11 +1,11 @@
 [gd_scene load_steps=2 format=3 uid="uid://cwaqyad1dlu61"]
 
-[ext_resource type="Texture2D" uid="uid://cqainsbgiyn74" path="res://Assets/Test scene.png" id="1_2w8b8"]
+[ext_resource type="Texture2D" uid="uid://ban5ty8uul487" path="res://Assets/Backgrounds/background.png" id="1_cc4kw"]
 
 [node name="MainScene" type="Node2D"]
-position = Vector2(-67, -32)
 
-[node name="TestScene" type="Sprite2D" parent="."]
-position = Vector2(642, 358)
-scale = Vector2(1.79444, 1.79444)
-texture = ExtResource("1_2w8b8")
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Background" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_cc4kw")
