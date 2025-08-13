@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cwaqyad1dlu61"]
+[gd_scene load_steps=7 format=3 uid="uid://cwaqyad1dlu61"]
 
 [ext_resource type="Texture2D" uid="uid://ban5ty8uul487" path="res://Assets/Backgrounds/background.png" id="1_cc4kw"]
 [ext_resource type="Texture2D" uid="uid://chc6mudkasv2w" path="res://Assets/Environment/overworld_tileset.png" id="2_hu5wt"]
+[ext_resource type="Script" path="res://character.gd" id="3_j87st"]
+[ext_resource type="Texture2D" uid="uid://bpk0u6o3tncij" path="res://Assets/Characters/PlaceHolder-Character.png" id="4_wni5w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4sru6"]
 resource_name = "Tiles"
@@ -798,3 +800,9 @@ z_index = 1
 tile_set = SubResource("TileSet_kmhn0")
 format = 2
 layer_0/tile_data = PackedInt32Array(-196610, 262144, 18, -131074, 262144, 18, -65538, 262144, 18, -131072, 262144, 18, -196608, 262144, 18, -262144, 262144, 18, 196603, 262144, 18, 327672, 262144, 18, 196599, 262144, 18, -65546, 262144, 18, 131061, 262144, 18, -262153, 262144, 18, -393227, 262144, 18, -458756, 262144, 18, -262140, 262144, 18, -131066, 262144, 18, 5, 262144, 18, 196615, 262144, 18, 393212, 262144, 18, 524281, 262144, 18, 655350, 262144, 18, 589823, 262144, 18, 655357, 262144, 18, 393217, 262144, 18, 458758, 262144, 18, 589831, 262144, 18, 262143, 262144, 18, 65531, 327680, 16, -131080, 327680, 16, -65535, 327680, 16, 327680, 327680, 16, 458750, 327680, 16, 458742, 327680, 16, 589815, 327680, 16, -589830, 327680, 16, -655368, 327680, 16, 589834, 327680, 16, 262153, 327680, 16, 65546, 327680, 16, -393206, 327680, 16, -655351, 327680, 16, -196597, 327680, 16, -589824, 262144, 19, -589821, 458752, 19, -589819, 458752, 19)
+
+[node name="Character" type="Node2D" parent="."]
+script = ExtResource("3_j87st")
+
+[node name="PlaceHolder-character" type="Sprite2D" parent="Character"]
+texture = ExtResource("4_wni5w")
